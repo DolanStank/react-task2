@@ -39,7 +39,6 @@ function Modal(props) {
     const [changeName, setChangeName] = useState(true);
     if (!props.open) return null;
 
-    console.log("here")
     return (
         <>
             <div className="overlay"></div>
